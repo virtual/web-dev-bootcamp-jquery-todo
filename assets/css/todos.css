@@ -36,13 +36,15 @@ li {
 	height: 40px;
 	line-height: 40px;
 	color: #666;
+	cursor: pointer;
 }
 
 li:nth-child(2n){
 	background: #f7f7f7;
 }
 
-span {
+li span {
+	cursor: pointer;
 	background: #e74c3c;
 	height: 40px;
 	margin-right: 20px;
