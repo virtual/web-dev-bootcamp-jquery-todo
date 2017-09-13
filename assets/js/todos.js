@@ -26,3 +26,7 @@ $("input[type='text']").keypress(function(e) {
 	// click() only adds listeners for existing elements
 	// on() will add listeners for all potential future elements
 });
+$('input').hide();
+$('.fa-plus').click(function() {
+	$('input').fadeToggle();
+});
